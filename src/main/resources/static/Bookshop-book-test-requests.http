@@ -1,0 +1,37 @@
+###
+POST /book-api/add HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 215
+
+{
+  "author": "J.K. Rowling",
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "category": "Fiction",
+  "description": "The first book in the Harry Potter series",
+  "price": 10.99
+}
+
+###
+GET http://localhost:8080/book-api/get-by-title/
+
+###
+GET http://localhost:8080/book-api/get-by-price-from/12.12
+
+###
+GET http://localhost:8080/book-api/
+
+###
+GET http://localhost:5432/book-api/
+
+###
+GET http://localhost:5432/book-api/
+
+###
+GET http://localhost:5432/book-api/
+
+###
+GET http://localhost:5432/book-api/
+
+###
+GET http://localhost:5432/book-api/

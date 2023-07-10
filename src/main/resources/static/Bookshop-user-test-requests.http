@@ -1,0 +1,5 @@
+###
+GET http://localhost:8080/user-api/find-by-city?c=Dnipro
+
+###
+GET http://localhost:8080/user-api/find-by-city?c=Los+Angeles
